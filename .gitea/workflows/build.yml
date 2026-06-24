@@ -22,4 +22,4 @@ jobs:
         run: node quartz/bootstrap-cli.mjs build
 
       - name: Deploy
-        run: rsync -a --delete public/ /var/www/quartz/
+        run: rsync -rlt --delete --no-owner --no-group public/ /var/www/quartz/
