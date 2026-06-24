@@ -1,7 +1,8 @@
 ---
 publish: true
+title: Test
 created: 2026-06-19T15:09:18.490-04:00
-modified: 2026-06-24T16:10:19.786-04:00
+modified: 2026-06-24T16:24:07.537-04:00
 ---
 
 Here is some more text
