@@ -1,8 +1,8 @@
 ---
 publish: true
-title: Home
+title: Welcome to my random thoughts
 created: 2026-06-24T16:21:15.250-04:00
-modified: 2026-06-24T16:26:26.813-04:00
+modified: 2026-06-24T17:42:29.429-04:00
 ---
 
-This is a test home page [[It may not like the period]]
+Hello there! I currently dont have any content in this site (clearly)
