@@ -2,7 +2,7 @@
 publish: true
 title: DLEs
 created: 2026-06-25T15:12:27.128-04:00
-modified: 2026-06-25T15:18:39.460-04:00
+modified: 2026-06-25T15:18:57.665-04:00
 ---
 
 DLEs are daily games inspired by wordle. Guess the day's word based on dictionary distance, find that day's randomly chosen country on a globe, or guess the amount of balls dropped into a cup - that kind of thing. Below are a few selected favorites:
@@ -12,7 +12,7 @@ DLEs are daily games inspired by wordle. Guess the day's word based on dictionar
 - https://www.amountle.dev
 - https://www.rngdle.com
 
-You can check out the full list of ones I think are good on https://dles.aukspot.com. Just copy the following list > navigate to favorites on that site > import > paste:
+You can check out the full list of ones I think are worth playing on https://dles.aukspot.com. Just copy the following list > navigate to favorites on that site > import > paste:
 
 ```
 [
