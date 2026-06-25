@@ -1,11 +1,9 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Ike Lyons' Digital Garden
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
   locale: en-US
   baseUrl: blog.ikelyons.com
   ignorePatterns:
@@ -198,8 +196,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/IkeLyons
+        IkeLyons.com: https://ikelyons.com
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
