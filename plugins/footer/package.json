@@ -1,15 +1,9 @@
 {
-  "name": "@quartz-community/footer",
+  "name": "@local/footer",
   "version": "0.1.0",
-  "description": "Footer component for Quartz - displays site footer with links and version",
+  "description": "Customized footer for blog.ikelyons.com",
   "type": "module",
   "license": "MIT",
-  "author": "Quartz Community",
-  "homepage": "https://github.com/quartz-community/footer",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/quartz-community/footer"
-  },
   "keywords": [
     "quartz",
     "quartz-plugin",
