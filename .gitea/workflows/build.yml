@@ -15,11 +15,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install plugins
-        run: node quartz/bootstrap-cli.mjs plugin install
-
       - name: Build site
-        run: node quartz/bootstrap-cli.mjs build
+        run: npm run build
 
       - name: Deploy
         run: rsync -rl --delete --no-owner --no-group --no-times public/ /var/www/quartz/
