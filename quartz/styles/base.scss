@@ -404,7 +404,7 @@ h6,
 thead {
   font-family: var(--headerFont);
   color: var(--dark);
-  font-weight: revert;
+  font-weight: 400;
   margin-bottom: 0;
 
   article > & > a[role="anchor"] {
