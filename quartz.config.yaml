@@ -17,7 +17,7 @@ configuration:
     typography:
       header:
         name: Bitcount Prop Single
-        weights: [200]
+        weights: [300]
       body: Inter
       code: IBM Plex Mono
     colors:
