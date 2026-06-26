@@ -5,6 +5,7 @@ configuration:
   enableSPA: true
   enablePopovers: true
   locale: en-US
+  # baseUrl: 192.168.1.173:8181
   baseUrl: blog.ikelyons.com
   ignorePatterns:
     - private
@@ -12,10 +13,10 @@ configuration:
     - .obsidian
   theme:
     fontOrigin: googleFonts
-    cdnCaching: true
+    cdnCaching: false
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Bitcount Prop Single
+      body: Inter
       code: IBM Plex Mono
     colors:
       lightMode:
