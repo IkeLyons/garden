@@ -2,7 +2,7 @@
 publish: true
 title: What is a Digital Garden?
 created: 2026-06-27T15:00:23.739-04:00
-modified: 2026-06-27T15:46:53.120-04:00
+modified: 2026-06-27T17:28:03.424-04:00
 ---
 
 > A man who loses his privacy loses everything. And a man who gives it up of his own free will is a monster.
@@ -19,4 +19,4 @@ Above all, a digital garden is whatever you want it to be. Its less a blog; more
 
 These are examples of self-hosted, open source software. Digital gardens aren't required to be, but it feels like you are missing the point if yours isn't. Its tragic that principles like self ownership, open access, and free use are becoming less and less common on the web. Digital gardens are one way to espouse the tenants of a better internet by example.
 
-Really, its just fun to have a place to dump things you find interesting. Even _more_ compelling that you can share it with anyone. Even beyond _that_, its a fun challenge to own and maintain your own digital infrastructure and internet presence. Social media is annoying and has too much of a defined social contract for what is and isn't acceptable to be shared. Basically, aren't we all a little tired of having huge companies define how we access and use the internet? Having your own digital garden gives you some small way to push back against the social norm requiring an internet presence - without resigning yourself to being a digital recluse.
+Really, its just fun to have a place to dump things you find interesting. Even _more_ compelling that you can share it with anyone. Even beyond _that_, its a fun challenge to own and maintain your own digital infrastructure and internet presence. Social media is annoying and has too much of a defined social contract for what is and isn't acceptable to be shared. Essentially, aren't we all a little tired of having huge companies define how we access and use the internet? Having your own digital garden gives you some small way to push back against the social norm requiring an internet presence - without resigning yourself to being a digital recluse.
