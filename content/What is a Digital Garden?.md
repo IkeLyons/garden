@@ -2,16 +2,14 @@
 publish: true
 title: What is a Digital Garden?
 created: 2026-06-27T15:00:23.739-04:00
-modified: 2026-06-27T15:41:01.913-04:00
+modified: 2026-06-27T15:46:53.120-04:00
 ---
 
 > A man who loses his privacy loses everything. And a man who gives it up of his own free will is a monster.
->
-> - Milan Kundera in "The Unbearable Lightness of being"
+> \-- <cite>Milan Kundera in "The Unbearable Lightness of being"</cite>
 
 > You will own nothing. And you'll be happy
->
-> - The WEF
+> \-- <cite>The WEF</cite>
 
 Above all, a digital garden is whatever you want it to be. Its less a blog; more of a loosely structured, interconnected web of thoughts/projects/notes/whatever else you want. [https://indieweb.org/digital\_garden](https://web.archive.org/web/20260601054248/https://indieweb.org/digital_garden) attempts to define it - but its better explored by example. Here are a few of my favorites:
 
