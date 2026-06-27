@@ -18,6 +18,7 @@ import {
   googleFontSubsetHref,
   joinStyles,
   processGoogleFonts,
+  getHeaderFontPreloadUrls,
 } from "../../util/theme"
 import { Features, transform } from "lightningcss"
 import { transform as transpile } from "esbuild"
@@ -305,6 +306,8 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
           cfg.baseUrl,
         )
         googleFontsStyleSheet = processedStylesheet
+
+        ctx.fontPreloadUrls = getHeaderFontPreloadUrls(processedStylesheet, theme)
 
         // Download and save font files
         for (const fontFile of fontFiles) {

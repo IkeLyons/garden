@@ -44,6 +44,8 @@ export interface BuildCtx {
   componentCssMap?: Map<string, string>
   /** Maps inline CSS/JS content to extracted external file paths. Populated by ComponentResources. */
   extractedInlineResources?: Map<string, string>
+  /** Header font file URLs to preload in <head>. Populated by ComponentResources emitter. */
+  fontPreloadUrls?: string[]
 }
 
 export function trieFromAllFiles(allFiles: QuartzPluginData[]): FileTrieNode<BuildTimeTrieData> {

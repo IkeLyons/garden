@@ -49,6 +49,9 @@ export default (() => {
         {coreScript && coreScript.contentType === "external" && (
           <link rel="preload" href={coreScript.src} as="script" />
         )}
+        {ctx.fontPreloadUrls?.map((url) => (
+          <link key={url} rel="preload" as="font" href={url} crossOrigin="anonymous" />
+        ))}
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />

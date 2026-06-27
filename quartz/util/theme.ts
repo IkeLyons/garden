@@ -91,14 +91,14 @@ export function googleFontHref(theme: Theme) {
   const bodyFont = formatFontSpecification("body", body)
   const codeFont = formatFontSpecification("code", code)
 
-  return `https://fonts.googleapis.com/css2?family=${headerFont}&family=${bodyFont}&family=${codeFont}&display=optional`
+  return `https://fonts.googleapis.com/css2?family=${headerFont}&family=${bodyFont}&family=${codeFont}&display=swap`
 }
 
 export function googleFontSubsetHref(theme: Theme, text: string) {
   const title = theme.typography.title || theme.typography.header
   const titleFont = formatFontSpecification("title", title)
 
-  return `https://fonts.googleapis.com/css2?family=${titleFont}&text=${encodeURIComponent(text)}&display=optional`
+  return `https://fonts.googleapis.com/css2?family=${titleFont}&text=${encodeURIComponent(text)}&display=swap`
 }
 
 export interface GoogleFontFile {
@@ -112,6 +112,24 @@ const fontMimeMap: Record<string, string> = {
   woff: "woff",
   woff2: "woff2",
   opentype: "otf",
+}
+
+export function getHeaderFontPreloadUrls(processedCss: string, theme: Theme): string[] {
+  const headerFontName = getFontSpecificationName(theme.typography.header)
+  const preloadUrls: string[] = []
+
+  const fontFaceBlockRegex = /@font-face\s*\{([^}]+)\}/g
+  let blockMatch
+  while ((blockMatch = fontFaceBlockRegex.exec(processedCss)) !== null) {
+    const block = blockMatch[1]
+    const familyMatch = /font-family:\s*['"]?([^;'"]+?)['"]?\s*;/.exec(block)
+    const srcMatch = /src:\s*url\(([^)]+)\)/.exec(block)
+    if (familyMatch && srcMatch && familyMatch[1].trim() === headerFontName) {
+      preloadUrls.push(srcMatch[1].trim())
+    }
+  }
+
+  return preloadUrls
 }
 
 export async function processGoogleFonts(
