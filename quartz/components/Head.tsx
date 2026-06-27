@@ -106,6 +106,11 @@ export default (() => {
             return resource
           }
         })}
+        <script
+          data-goatcounter="https://analytics.order.lyonslab.dev/count"
+          async
+          src="//analytics.order.lyonslab.dev/count.js"
+        />
       </head>
     )
   }
