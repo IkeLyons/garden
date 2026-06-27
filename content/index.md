@@ -2,11 +2,11 @@
 publish: true
 title: Digital Gardens
 created: 2026-06-24T16:21:15.250-04:00
-modified: 2026-06-27T17:42:25.980-04:00
+modified: 2026-06-27T17:46:15.924-04:00
 ---
 
-\[!WARNING]
-This Site is a WIP
+> [!warning]
+> This Site is a WIP
 
 Hello there! You are currently talking to a metal box sitting on my shelf, so forgive me if stuff loads slowly or is outright broken. You should tell me if something is!
 
