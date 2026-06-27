@@ -2,7 +2,7 @@
 publish: true
 title: Digital Gardens
 created: 2026-06-24T16:21:15.250-04:00
-modified: 2026-06-25T14:51:43.697-04:00
+modified: 2026-06-27T15:42:15.587-04:00
 ---
 
 Hello there! You are currently talking to a metal box sitting on my shelf, so forgive me if stuff loads slowly or is outright broken. You should tell me if something is!
@@ -10,4 +10,4 @@ Hello there! You are currently talking to a metal box sitting on my shelf, so fo
 > _Me when I_:
 > ![[image.jpeg]]
 
-This is (going to be?) a digital garden. Ive long been saving interesting websites, lovely short stories, and other internet artifacts, so it felt high time to give them their own corner of the internet. My own little corner. Take a look around! Maybe you’ll find something cool :)
+Welcome to my [[What is a Digital Garden?|digital garden]]! Ive long been saving interesting websites, lovely short stories, and other internet artifacts, so it felt high time to give them their own corner of the internet. My own little corner. Take a look around! Maybe you’ll find something cool :)
