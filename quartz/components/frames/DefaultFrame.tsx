@@ -24,9 +24,11 @@ export const DefaultFrame: PageFrame = {
     return (
       <>
         <div class="left sidebar">
-          {left.map((BodyComponent) => (
-            <BodyComponent {...componentData} />
-          ))}
+          <div class="left-panel">
+            {left.map((BodyComponent) => (
+              <BodyComponent {...componentData} />
+            ))}
+          </div>
         </div>
         <div class="center">
           <div class="page-header">
