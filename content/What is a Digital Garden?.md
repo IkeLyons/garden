@@ -2,7 +2,7 @@
 publish: true
 title: What is a Digital Garden?
 created: 2026-06-27T15:00:23.739-04:00
-modified: 2026-07-03T12:08:06.347-04:00
+modified: 2026-07-03T12:11:22.381-04:00
 ---
 
 Above all, a digital garden is whatever you want it to be. Its less a blog; more of a loosely structured, interconnected web of thoughts/projects/notes/whatever else you want. A sort of personal wiki. I'd even include many portfolio websites and personal homepages in the category, but what do I know. If it's handcrafted and interesting thats good enough for me. Part of the point is that they are always growing, so expect every page to be a WIP and subject to change or even removal. [Indieweb](https://web.archive.org/web/20260601054248/https://indieweb.org/digital_garden) tries to nail down its definition - but its better explored by example. Here are a few of my favorites:
@@ -23,7 +23,7 @@ I expect you can find more strewn about as links on this site.
 > \-- <cite>The WEF</cite>
 
 > God forbid a fella appreciate The earth & feel The need To Create a intimate Gallery for peers To Connect w you more
-> \-- <cite> https://x.com/pcstandfor/status/2072726031081820362?s=46\&t=fvun2ZIjGnKIpyQ8DgYUkQ </site>
+> \-- <cite> @pcstandfor on Twitter </site>https://x.com/pcstandfor/status/2072726031081820362?s=46\&t=fvun2ZIjGnKIpyQ8DgYUkQ
 
 This site is self-hosted and open source. Digital gardens don't have to be, but to me it feels like you are missing the point if yours isn't.[^1] Principles like decentralization, open access, and transparency are becoming less and less common on the web.[^2] Digital gardens are one way to espouse the tenants of a better internet by example.
 
