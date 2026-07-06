@@ -75,6 +75,20 @@ h6 {
     padding-top: 0;
   }
 
+  // Fix overlay to viewport so it covers the full screen regardless of #quartz-body padding
+  .explorer .explorer-content {
+    position: fixed;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  // Search trigger fills the padded container width (no extra individual margins)
+  .explorer-content .mobile-search-trigger {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   // Convert the bordered card into a full-width horizontal top nav bar
   .left-panel {
     flex-direction: row;
