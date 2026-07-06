@@ -69,6 +69,64 @@ h6 {
   display: none;
 }
 
+@media all and ($mobile) {
+  // Remove top padding so the nav bar sits flush at the top
+  .sidebar.left {
+    padding-top: 0;
+  }
+
+  // Convert the bordered card into a full-width horizontal top nav bar
+  .left-panel {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--lightgray);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    gap: 0;
+  }
+
+  // Collapse the toolbar group to zero size without display:none — the search
+  // modal is position:fixed inside it, and display:none on an ancestor prevents
+  // fixed children from rendering even when active.
+  .left-panel > .flex-component {
+    flex: 0 0 0;
+    width: 0;
+    height: 0;
+    min-width: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+  }
+
+  // pointer-events:none is inherited, so re-enable it on the search modal
+  // so taps on search results actually register
+  .search > .search-container {
+    pointer-events: auto;
+  }
+
+  // Center the title over the full bar width without pushing other flex items
+  .left-panel {
+    position: relative;
+  }
+
+  .left-panel .page-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  .left-panel .page-title a {
+    pointer-events: auto;
+  }
+}
+
 @media all and ($desktop) {
   .page > #quartz-body:has(.sidebar.right:empty) {
     grid-template-columns: #{$sidePanelWidth} auto;
