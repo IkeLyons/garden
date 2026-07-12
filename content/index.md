@@ -2,7 +2,7 @@
 publish: true
 title: Digital Gardens
 created: 2026-06-24T16:21:15.250-04:00
-modified: 2026-07-12T19:53:35.601-04:00
+modified: 2026-07-12T19:56:12.434-04:00
 ---
 
 > [!warning]
