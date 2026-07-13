@@ -2,7 +2,7 @@
 publish: true
 title: Digital Gardens
 created: 2026-06-24T16:21:15.250-04:00
-modified: 2026-07-12T20:10:15.045-04:00
+modified: 2026-07-12T20:16:39.237-04:00
 ---
 
 > [!warning]
@@ -10,7 +10,7 @@ modified: 2026-07-12T20:10:15.045-04:00
 
 Hello there! You are currently talking to a metal box sitting on my shelf.
 
-> _Me_:
-> ![[image.jpeg|200]]
+> Me:\
+> ![[images/image.jpeg|400]]
 
 This is my [[What is a Digital Garden?|digital garden]]! Ive long been saving internet artifacts, so it felt high time to give them their own corner of the internet. Take a look around! Maybe you’ll find something cool :)
