@@ -143,6 +143,23 @@ h6 {
   }
 }
 
+// Folder index pages: replace the item count with a "Recent Posts" divider
+.page-listing > p {
+  display: none;
+}
+
+.page-listing > div::before {
+  content: "Recent Posts";
+  display: block;
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--gray);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 @media all and ($desktop) {
   .page > #quartz-body:has(.sidebar.right:empty) {
     grid-template-columns: #{$sidePanelWidth} auto;
