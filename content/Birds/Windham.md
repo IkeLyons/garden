@@ -2,12 +2,12 @@
 publish: true
 title: Windham, NY
 created: 2026-07-12T18:58:16.708-04:00
-modified: 2026-07-12T20:54:05.979-04:00
+modified: 2026-07-12T21:33:08.762-04:00
 ---
 
-I went to Windham, NY. Lotta birds, not a lotta of good pictures. So it goes. This was the first trip I took where I made a dedicated effort to take bird photos, and so I flubbed plenty of shots and missed even more. How exciting to be bad at a new hobby! I cant wait for the opportunity to mess up even more as I continue to learn and grow in birding.
+I went to Windham, NY. Lotta birds, not a lotta of good pictures. So it goes. This was the first trip I took where I made a dedicated effort to take bird photos, and so I flubbed plenty of shots and missed even more. How exciting to be bad at a new hobby! I can't wait for the opportunity to mess up even more as I continue to learn and grow in birding.
 
-I saw a red-bellied woodpecker (not pictured), some Veerys (not pictured), and plenty of birds we see all the time (who woulda guessed it - pictured below). These were the best ones I got:
+I saw a Red-bellied Woodpecker (not pictured), some Veerys (not pictured), and plenty of birds we see all the time (who woulda guessed it - pictured below). These were the best of the bunch:
 
 > A curious Blue Jay peaking through the canopy. We are so lucky that these birds are common! Absolutely gorgeous.
 > ![[images/P1040265.jpg|800]]
