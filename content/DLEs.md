@@ -2,10 +2,10 @@
 publish: true
 title: DLEs
 created: 2026-06-25T15:12:27.128-04:00
-modified: 2026-06-25T15:18:57.665-04:00
+modified: 2026-07-12T20:56:26.597-04:00
 ---
 
-DLEs are daily games inspired by wordle. Guess the day's word based on dictionary distance, find that day's randomly chosen country on a globe, or guess the amount of balls dropped into a cup - that kind of thing. Below are a few selected favorites:
+DLEs are daily games inspired by wordle. Guess the day's word based on dictionary distance, find the day's randomly chosen country on a globe, or guess the amount of balls dropped into a cup - that kind of thing. Below are a few selected favorites:
 
 - https://lessgames.com/moreless
 - https://globle-game.com/game
