@@ -6223,6 +6223,33 @@ var require_output = __commonJS({
   }
 });
 
+// ../../node_modules/@img/sharp-wasm32/versions.json
+var require_versions = __commonJS({
+  "../../node_modules/@img/sharp-wasm32/versions.json"(exports, module) {
+    module.exports = {
+      aom: "3.14.1",
+      cgif: "0.5.3",
+      emscripten: "6.0.1",
+      exif: "0.6.26",
+      expat: "2.8.2",
+      ffi: "3.6.0",
+      glib: "2.89.1",
+      heif: "1.23.1",
+      highway: "1.4.0",
+      imagequant: "2.4.1",
+      lcms: "2.19.1",
+      mozjpeg: "0826579",
+      png: "1.6.58",
+      resvg: "0.47.0",
+      tiff: "4.7.2rc2",
+      uhdr: "1acdbed",
+      vips: "8.18.3",
+      webp: "1.6.0",
+      "zlib-ng": "2.3.3"
+    };
+  }
+});
+
 // node_modules/sharp/lib/utility.js
 var require_utility = __commonJS({
   "node_modules/sharp/lib/utility.js"(exports, module) {
@@ -6267,7 +6294,7 @@ var require_utility = __commonJS({
         }
       } else {
         try {
-          versions = __require("@img/sharp-wasm32/versions");
+          versions = require_versions();
         } catch (_2) {
         }
       }
