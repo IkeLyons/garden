@@ -1,0 +1,33 @@
+name: Mirror to GitHub
+
+on:
+  push:
+    branches: [v5]
+
+jobs:
+  mirror:
+    runs-on: nix
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.MIRROR_KEY }}" > ~/.ssh/github_mirror
+          chmod 600 ~/.ssh/github_mirror
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Install git-filter-repo
+        run: pip install git-filter-repo
+
+      - name: Strip content/
+        run: git filter-repo --path content --invert-paths --force
+
+      - name: Push to GitHub
+        env:
+          GIT_SSH_COMMAND: ssh -i ~/.ssh/github_mirror -o StrictHostKeyChecking=yes
+        run: |
+          git remote add github git@github.com:IkeLyons/garden.git
+          git push github HEAD:v5 --force
