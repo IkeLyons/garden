@@ -19,7 +19,7 @@ jobs:
           chmod 600 ~/.ssh/github_mirror
 
       - name: Strip content/
-        run: nix-shell -p git-filter-repo --run "git filter-repo --path content --invert-paths --force"
+        run: nix run nixpkgs#git-filter-repo -- --path content --invert-paths --force
 
       - name: Push to GitHub
         env:
