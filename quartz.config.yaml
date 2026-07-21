@@ -102,6 +102,9 @@ plugins:
   - source: ./plugins/image-optimizer
     enabled: true
     order: 95
+  - source: ./plugins/spotify-embed
+    enabled: true
+    order: 96
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
