@@ -18,11 +18,8 @@ jobs:
           echo "${{ secrets.MIRROR_KEY }}" > ~/.ssh/github_mirror
           chmod 600 ~/.ssh/github_mirror
 
-      - name: Install git-filter-repo
-        run: pip install git-filter-repo
-
       - name: Strip content/
-        run: git filter-repo --path content --invert-paths --force
+        run: nix-shell -p git-filter-repo --run "git filter-repo --path content --invert-paths --force"
 
       - name: Push to GitHub
         env:
