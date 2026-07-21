@@ -17,7 +17,6 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.MIRROR_KEY }}" > ~/.ssh/github_mirror
           chmod 600 ~/.ssh/github_mirror
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
 
       - name: Install git-filter-repo
         run: pip install git-filter-repo
@@ -27,7 +26,7 @@ jobs:
 
       - name: Push to GitHub
         env:
-          GIT_SSH_COMMAND: ssh -i ~/.ssh/github_mirror -o StrictHostKeyChecking=yes
+          GIT_SSH_COMMAND: ssh -i ~/.ssh/github_mirror -o StrictHostKeyChecking=no
         run: |
           git remote add github git@github.com:IkeLyons/garden.git
           git push github HEAD:v5 --force
