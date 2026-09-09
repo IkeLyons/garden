@@ -111,9 +111,9 @@ export default (() => {
           }
         })}
         <script
-          data-goatcounter="https://analytics.order.lyonslab.dev/count"
+          data-goatcounter="https://stats.blog.ikelyons.com/count"
           async
-          src="//analytics.order.lyonslab.dev/count.js"
+          src="//stats.blog.ikelyons.com/count.js"
         />
       </head>
     )
